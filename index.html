@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Musee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="description">
+            <h1 align = center>秋鷹圖 <img src="https://collections.culture.tw/ShowGALImage.aspx?FROM=OPENDATA&SYSUID=18&IMG1=0x01000000cddfd63f6720af59a3fdf95a4f6de6fbedde63ec92145694a57fd1f20464b25909b3ce8304537ee8a3897a279dd44a03"  width= 225 height = 275 align=right> </h1>
+            <p><b>典藏單位：</b>國立中正紀念堂管理處</p>
+            <p><b>館藏編號：</b>PT09100100</p>
+            <p><b>藏品作者：</b>李汝匡</p>
+            <p><b>藏品年代：</b>None</p>
+            <p><b>尺寸：</b>140x70 (194x105)</p>
+            <p><b>文物描述：</b></p>
+            <p>李汝匡(1927-)，廣東省信宜縣人，先後畢業自信宜師範、廣州大學。從嶺南派大師趙少昂先生習水墨畫，後創辦中華美術院，並任澳門東亞大學、澳門大學教育學院美勞科講師，作育英才無數。其作品多次在歐、亞、美洲各地展出，數十年來個展無數，如日本亞洲青年畫展、香港第1-4屆藝術節展、香港英國文化會主辦東南亞巡迴展、越南國際書畫展、德國當代中國名家巡迴展、美國夏威夷博物館中國畫名家邀請展、國立歷史博物館邀請展等，畫名蜚聲國際。因書畫藝才卓著，1963年獲東方藝術專門學校頒贈榮譽博學院士金匙章，1983年獲國立歷史博物館頒贈金罍獎，1984年獲東京書道聯盟頒贈榮譽獎章等殊榮。李如匡擅長書畫，後者如花鳥、走獸、山水、人物及水族，無所不能。畫冊自跋(1997)中說：「余自幼喜繪事……對嶺南二高一陳三家之作品，已仰慕不已。後有緣得從遊於趙少昂夫子之門」，可見其以嶺南傳人為自任。尤其服膺高劍父之名言：「筆墨當隨時代」，認為現代國畫應創造時代語言，為以形寫意的國畫傳統注入新血。李如匡和其他嶺南派畫家一樣，善於捕捉走獸猛禽的生態、野性，為近代中國畫的死寂場面注入一股活泉。本作描繪一隻佇立於高枝上的老鷹，因發現地面獵物，準備展翼飛撲而下的瞬間，充滿濃郁的視覺趣味及緊張感。</p>         
+        </div>
+            <div id="start"> 測驗時間！</div>
+            <div id="quiz" style="display: none">
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+                </div>
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
